@@ -61,7 +61,7 @@ const Navbar = () => {
       {/* overlay*/}
       {isMenuOpen && (
         <div
-          className={`flex h-screen flex-col bg-green-800 transition-all duration-500 ease-in-out md:flex-row ${
+          className={`flex h-screen flex-col bg-green-100 transition-all duration-500 ease-in-out md:flex-row ${
             isMenuOpen
               ? "translate-y-0 opacity-100"
               : "-translate-y-full opacity-0"
