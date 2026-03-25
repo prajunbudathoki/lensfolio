@@ -122,7 +122,7 @@ const Navbar = () => {
             {/* right nav image section */}
             <div className="relative hidden flex-1 overflow-hidden py-16 text-white md:block">
               <div className="mt-20 flex items-center justify-between px-10">
-                <h1 className="text-xl font-semibold tracking-tight md:text-5xl">
+                <h1 className="mb-5 text-xl font-semibold tracking-tight md:text-5xl">
                   Captured Moments
                 </h1>
                 <div className="flex gap-2">
