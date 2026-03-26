@@ -104,11 +104,18 @@ const Navbar = () => {
                   Services
                 </Link>
                 <Link
+                  to="/photos"
+                  className="w-fit transition-all hover:translate-x-4 hover:text-green-400"
+                  onClick={toggleMenu}
+                >
+                  Photos
+                </Link>
+                <Link
                   to="/"
                   className="w-fit transition-all hover:translate-x-4 hover:text-green-400"
                   onClick={toggleMenu}
                 >
-                  Gallery
+                  Videos
                 </Link>
                 <Link
                   to="/"
